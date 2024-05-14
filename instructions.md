@@ -16,7 +16,7 @@
 
 ## Examples
 
-### A simple IF statement
+### A simple IF/ELSE statement
 ```javascript
 const firstName = prompt("Please enter your first name:\n");
 alert(`Greetings, ${firstName}!`);
