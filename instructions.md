@@ -8,7 +8,7 @@
 
 1. Create a new GitHub repo: ***if-statements-js***
 
->*** NOTE ***: Make your repo ***PUBLIC*** 
+>Please make your repo ***PUBLIC*** 
 
 2. Add your project files to your repo.
 3. Publish your code and code updates to your online repo.
