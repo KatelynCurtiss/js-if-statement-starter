@@ -78,7 +78,7 @@ Prompt the user to enter how much money they currently have in their bank accoun
 
 **HINT**: *How do you tell JavaScript to treat what the user types in as a number?*
 
-If they have more than $100.00 in their account, display an alert box that says: You'rich!
+If they have more than $100.00 in their account, display an alert box that says: Woohoo! You're rich!
 
 Otherwise, recommend that they start adding $10.00 per week to their savings account.
 
