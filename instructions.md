@@ -12,6 +12,6 @@
 >*** NOTE ***: Make your repo ***PUBLIC*** 
 
 2. Add your project files to your repo.
-3. Remember to upload (publish) your code to GitHub online.
-4. Copy the URL (web address) that points to your online repo and post it to Google Classroom.
+3. Publish your code and code edits to your online repo.
+4. Submit the URL that points to your online repo on Google Classroom.
 
