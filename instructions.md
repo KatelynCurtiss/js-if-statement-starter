@@ -96,7 +96,7 @@ To your **summer_months** array, add these values: 6, 7, 8 (representing June, J
 
 To your **fall_months** array, add these values: 9, 10, 11 (representing September, October and November).
 
-In your if clause, use the membership operator **in** to check which month corresponds to which season.  Do the same for each of your elif clauses.  You should also add an else clause to your function.
+In your if clause, use the membership operator **in** to check which month corresponds to which season.  Do the same for your two elif clauses.  You should also add an else clause to your function.
 ```javascript
 if month in winter_months:
      return seasons[0];
