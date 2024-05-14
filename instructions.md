@@ -72,7 +72,7 @@ If the user does not know Python, display a message in the browser console that 
 
 ### A simple IF/ELSE statement
 
-Write an IF/ELSE statement that checks whether the user has more than $100.00 dollars in his bank account.
+Write an IF/ELSE statement that checks whether the user has more than $100.00 dollars in their bank account.
 
 Prompt the user to enter how much money they currently have in their bank account.
 
