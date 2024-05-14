@@ -16,6 +16,16 @@
 
 ## Examples
 
+### An IF statement
+
+```javascript
+const youEatMeat = true;
+   
+if (youEatMeat) {
+    console.log("Order a big, greasy hamburger!");
+}
+```
+
 ### A simple IF/ELSE statement
 ```javascript
 const firstName = prompt("Please enter your first name:\n");
