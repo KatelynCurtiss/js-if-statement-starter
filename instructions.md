@@ -112,8 +112,8 @@ Remember to pass the month number the user entered up to your function as an arg
 
 In your browser console display a message that says something such as:
 
-*The season for December is winter.*
-*The season for April is spring.*
+> *The season for December is winter.*
+> *The season for April is spring.*
 
 **TIP**: Use a template string to build your output string.
 
