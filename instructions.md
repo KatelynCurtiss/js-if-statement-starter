@@ -37,3 +37,24 @@ if (firstName.length > 6) {
 	alert(`You have a short first name, ${firstName}!`);
 }
 ```
+
+### An IF/ELSE IF statement
+```javascript
+function checkNationality(nationality) {
+  if (nationality === "US") {
+    alert("You are American.");
+  } else if (nationality === "UK") {
+    alert("You are British.");
+  } else if (nationality === "CA") {
+    alert("You are Canadian.");
+  } else {
+    alert("Your nationality is not listed.");
+  }
+}
+
+// Prompt the user for their nationality
+const userNationality = prompt("Enter the code that represents your nationality: (US, UK, CA)\n");
+
+// Call the function to check and display nationality
+checkNationality(userNationality.toUpperCase()); // Convert input to uppercase using the JS toUpperCase ( ) method
+```
