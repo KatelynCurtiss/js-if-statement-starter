@@ -14,3 +14,16 @@
 3. Publish your code and code updates to your online repo.
 4. Submit the URL that points to your online repo on Google Classroom.
 
+## Examples
+
+### A simple IF statement
+```javascript
+const firstName = prompt("Please enter your first name:\n");
+alert(`Greetings, ${firstName}!`);
+
+if (firstName.length > 6) { 
+	alert (`Wow, ${firstName}! Your first name contains ${firstName.length} characters!`);
+} else {
+	alert(`You have a short first name, ${firstName}!`);
+}
+```
