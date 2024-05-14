@@ -108,7 +108,7 @@ elif month in spring_months:
 Outside your function, prompt the user to enter a month number (1 - 12).
 Then call the checkSeason ( ) function.   
 
-Remember to pass the month number the user entered to your function as an argument.
+Remember to pass the month number the user entered up to your function as an argument.
 
 In your browser console display a message that says something such as:
 
