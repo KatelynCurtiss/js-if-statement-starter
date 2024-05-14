@@ -1,9 +1,8 @@
 # JavaScript IF Statements Practice
 ## Instructions
 
-- Complete the three (3) demo scripts as shown in the example on Google Classroom
-- Use different values if you wish, but pay attention to the output you get for each demo
-    - How is the output different for each demo?
+- Review the if statement examples shown below
+- Then write your own if statements per the instructions
 
 ## Your GitHub Repo
 
