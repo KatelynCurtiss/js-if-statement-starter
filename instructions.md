@@ -20,7 +20,7 @@
 
 ```javascript
 const youEatMeat = true;
-   
+// If the user eats meat, tell them to order a hamburger!
 if (youEatMeat) {
     console.log("Order a big, greasy hamburger!");
 }
