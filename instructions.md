@@ -80,7 +80,7 @@ Prompt the user to enter how much money they currently have in their bank accoun
 
 If they have more than $100.00 in their account, use the JS alert ( ) method to display an alert box that says: Woohoo! You're rich!
 
-Otherwise, recommend that they start adding $10.00 per week to their savings account.
+Otherwise [else], recommend that they start adding $10.00 per week to their savings account.
 
 ### An IF/ELSE IF statement
 
