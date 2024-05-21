@@ -64,11 +64,11 @@ checkNationality(userNationality.toUpperCase()); // Convert input to uppercase u
 You can write each code block in the same script (main.js).
 
 ### An IF statement
-Write an IF statement that checks whether the user knows the Python programming language.  
+Write an IF statement that checks whether the user is 18 and therefore old enough to vote.  
 
-Define a JS variable named *knowsPython* and set its value to either **true** or **false** depending on whether the user knows how to code in Python or not.
+Define a JS variable named *age* and set its value to 20.
 
-If the user does not know Python, display a message in the browser console that tells them they should start learning Python.
+Then write an if statement that checks to see if the user's age is GREATER THAN OR EQUAL TO 18.  Display a message in the browser console that says: Congratulations! You are old enough to vote in the United States! if the user's age is 18 (or above).
 
 ### A simple IF/ELSE statement
 
@@ -78,45 +78,24 @@ Prompt the user to enter how much money they currently have in their bank accoun
 
 **HINT**: *How do you tell JavaScript to treat what the user types in as a number?*
 
-If they have more than $100.00 in their account, display an alert box that says: Woohoo! You're rich!
+If they have more than $100.00 in their account, use the JS alert ( ) method to display an alert box that says: Woohoo! You're rich!
 
 Otherwise, recommend that they start adding $10.00 per week to their savings account.
 
 ### An IF/ELSE IF statement
 
-Write a function named **checkSeason** that takes ONE **parameter** named **month**.
+- Mikey, a college student, needs 120 credits to graduate
+- Help Mikey determine whether he has enough credits to graduate by writing a script that does the following:
+	- prompts the student to enter the number of credits s/he has earned (HINT: Handle the user's answer as a number!)
+   	- the JS parseInt ( ) function might come in handy here!
+   	- add a condition to the if statement that checks to see if the student's credits are GREATER THAN OR EQUAL TO the credits required to graduate
+  		- If so, tell the student s/he has enough credits to graduate
+   	- use an **else if** clause to add a second condition to your code
+  		- the second condition will check to see if the student's credits are GREATER THAN OR EQUAL TO the credits required to graduate minus 30
+   	  	- if this second condition is true, tell the student how many more credits s/he needs this year to graduate (need to do some basic math here...)
+   	- add an **else** clause to your code as well
+  		- tell the student s/he will have to take additional courses to graduate
+   	  	- also tell the student how many credits they still need to graduate (need to do some basic math here...)
 
-In the function body, create five (5) arrays: seasons, winter_months, spring_months, summer_months, fall_months
 
-To your **seasons** array, add the values: 'winter', 'spring', 'summer', 'fall'.
-
-To your **winter_months** array, add these values: 12, 1, 2 (representing December, January, and February).
-
-To your **spring_months** array, add these values: 3, 4, 5 (representing March, April and May).
-
-To your **summer_months** array, add these values: 6, 7, 8 (representing June, July and August).
-
-To your **fall_months** array, add these values: 9, 10, 11 (representing September, October and November).
-
-In your if clause, use the membership operator **in** to check which month corresponds to which season.  Do the same for your two elif clauses.  You should also add an else clause as the last part of your if statement in your function.
-```javascript
-if month in winter_months:
-     return seasons[0];
-elif month in spring_months:
-     return seasons[1];
-// and so forth...
-```
-
-Outside your function, prompt the user to enter a month number (1 - 12).
-Then call the checkSeason ( ) function.   
-
-Remember to pass the month number the user entered up to your function as an argument.
-
-In your browser console display a message that says something such as:
-
-> *The season for December is winter.*
-
-> *The season for April is spring.*
-
-**TIP**: Use a template string to build your output string.
 
